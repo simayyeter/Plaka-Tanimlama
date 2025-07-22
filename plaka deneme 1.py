@@ -10,9 +10,9 @@ resim = cv2.imread("./plaka.png")
 
 
 if resim is None:
-    print("❌ Resim bulunamadı, yolu kontrol et!")
+    print("Resim bulunamadi, yolu kontrol et!")
 else:
-    print("✅ Resim basarıyla okundu.")
+    print("Resim basariyla okundu.")
 
 
 plaka_resmi = resim[230:320, 165:460]
